@@ -52,8 +52,8 @@ class UNet(nn.Module):
         x = self.up3(x, x1)
         x = self.att_7(x)
         
-        logits = self.outc(x)
-        return logits
+        outs = self.outc(x)
+        return outs
 
     def use_checkpointing(self):
         self.inc = torch.utils.checkpoint(self.inc)
