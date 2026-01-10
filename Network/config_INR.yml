@@ -1,0 +1,61 @@
+# ===============================
+# Encoder configurations
+# ===============================
+
+encoders:
+  mapping:
+    otype: "Grid"
+    type: "Hash"
+    n_levels: 16
+    n_features_per_level: 2
+    log2_hashmap_size: 19
+    base_resolution: 16
+    per_level_scale: 2.0
+    interpolation: "Linear"
+
+  coil_sensitivity_map:
+    otype: "Grid"
+    type: "Hash"
+    n_levels: 8
+    n_features_per_level: 2
+    log2_hashmap_size: 12
+    base_resolution: 1
+    per_level_scale: 2.0
+    interpolation: "Linear"
+
+  low_rank_prior:
+    otype: "Grid"
+    type: "Hash"
+    n_levels: 16
+    n_features_per_level: 2
+    log2_hashmap_size: 19
+    base_resolution: 16
+    per_level_scale: 2.0
+    interpolation: "Linear"
+
+
+# ===============================
+# Network configurations
+# ===============================
+
+networks:
+  mapping:
+    otype: "FullyFusedMLP"
+    activation: "ReLU"
+    output_activation: "Exponential"
+    n_neurons: 64
+    n_hidden_layers: 3
+
+  coil_sensitivity_map:
+    otype: "FullyFusedMLP"
+    activation: "ReLU"
+    output_activation: "None"
+    n_neurons: 64
+    n_hidden_layers: 3
+
+  low_rank_prior:
+    otype: "FullyFusedMLP"
+    activation: "ReLU"
+    output_activation: "None"
+    n_neurons: 64
+    n_hidden_layers: 3
