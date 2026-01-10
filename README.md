@@ -14,9 +14,9 @@ This is the official code for “Unsupervised Highly Accelerated 3D Multi-Parame
 - torchvision, h5py, numpy, scipy, other dependencies
 
 ## 2. Detailed Network Structures
-### The Architecture Details of CNN in LRR Block:
-
+### The Architecture Details of CNN in LRR Net:
+The specific code of CNN could be found in [folder](/Network/unet)
 <p align="center">
   <img src="Figs/2.jpg" alt="Pipeline" width="700"/><br>
-  <sub>Fig. 2: Pipeline of CNN in the LRR block.</sub>
+  <sub>Fig. 2: Pipeline of CNN in the LRR Net</sub>
 </p>
