@@ -30,3 +30,9 @@ The raw k-space data can be downloaded at:
 [https://figshare.com/articles/dataset/VFA-EPTI_Datasets/13211669](https://figshare.com/articles/dataset/VFA-EPTI_Datasets/13211669),
 and the pre-processed k-space data can be downloaded at:
 [https://drive.google.com/drive/folders/1m43pqqx2sqRBQqYfoIiRtNc1wlVhEhGe?usp=drive_link](https://drive.google.com/drive/folders/1m43pqqx2sqRBQqYfoIiRtNc1wlVhEhGe?usp=drive_link)
+
+### 3.2 The in vivo data of SUMMIT: 
+Due to privacy concerns and compliance requirements, the in vivo datasets are temporarily restricted and cannot be shared at this stage. We appreciate your understanding. 
+
+## 4. Future Work
+More details and data will be made publicly available after paper accepted 😇.
