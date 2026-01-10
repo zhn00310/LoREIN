@@ -27,7 +27,7 @@ Specific configurations for the hash encoders and Multi-Layer Perceptrons (MLPs)
 ## 3. Data
 ### 3.1 Public Data (vFA-EPTI) 
 - Raw k-space data can be downloaded at:
-[Download here](https://figshare.com/articles/dataset/VFA-EPTI_Datasets/13211669),
+[Download here](https://figshare.com/articles/dataset/VFA-EPTI_Datasets/13211669)
 
 ### 3.2 *In Vivo* Data (SUMMIT) 
 Due to privacy concerns and compliance requirements, the *in vivo* datasets are temporarily restricted and cannot be shared at this stage. We appreciate your understanding. 
