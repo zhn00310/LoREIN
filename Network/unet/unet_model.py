@@ -13,14 +13,12 @@ class UNet(nn.Module):
         self.inc = (DoubleConv(in_channels, 64))
         self.down1 = (Down(64, 128))
         self.down2 = (Down(128, 256))
-        # Removed down3 layer
         factor = 2 if bilinear else 1
         self.down3 = (Down(256, 512 // factor))
         
         self.up1 = (Up(512, 256 // factor, bilinear))
         self.up2 = (Up(256, 128 // factor, bilinear))
         self.up3 = (Up(128, 64, bilinear))
-        # Removed up4 layer
         self.outc = (OutConv(64, out_channels))
 
         self.att_1 = AttentionGroup(64)
