@@ -33,4 +33,4 @@ Specific configurations for the hash encoders and Multi-Layer Perceptrons (MLPs)
 Due to privacy concerns and compliance requirements, the *in vivo* datasets are temporarily restricted and cannot be shared at this stage. We appreciate your understanding. 
 
 ## 4. Future Work
-More details and data will be made publicly available after the paper is officially accepted. 😇
+More details will be made publicly available. 😇
