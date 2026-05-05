@@ -1,5 +1,5 @@
 # LoREIN
-This is the official code for “Unsupervised Highly Accelerated 3D Multi-Parametric MRI Reconstruction via Low-Rank Integrated Implicit Neural Representation”
+This is the official code for “Unsupervised Highly Accelerated 3D Multi-Parametric MRI Reconstruction via Low-Rank Integrated Implicit Neural Representation”[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0031320326008241)
 
 <p align="center">
   <img src="Figs/1_2.jpg" alt="Pipeline" width="700"/><br>
